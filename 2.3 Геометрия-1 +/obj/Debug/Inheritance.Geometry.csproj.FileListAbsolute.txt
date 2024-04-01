@@ -1,0 +1,10 @@
+D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\Inheritance.Geometry.exe.config
+D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\Inheritance.Geometry.exe
+D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\Inheritance.Geometry.pdb
+D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\nunitlite.dll
+D:\Lessons\C#\2.3 Геометрия-1\obj\Debug\Inheritance.Geometry.csproj.AssemblyReference.cache
+D:\Lessons\C#\2.3 Геометрия-1\obj\Debug\Inheritance.Geometry.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\2.3 Геометрия-1\obj\Debug\Inheritance.Geometry.csproj.CopyComplete
+D:\Lessons\C#\2.3 Геометрия-1\obj\Debug\Inheritance.Geometry.exe
+D:\Lessons\C#\2.3 Геометрия-1\obj\Debug\Inheritance.Geometry.pdb

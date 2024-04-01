@@ -1,0 +1,10 @@
+D:\Lessons\C#\3.1 Бинарное дерево\bin\Debug\Generics.BinaryTree.exe.config
+D:\Lessons\C#\3.1 Бинарное дерево\bin\Debug\Generics.BinaryTree.exe
+D:\Lessons\C#\3.1 Бинарное дерево\bin\Debug\Generics.BinaryTree.pdb
+D:\Lessons\C#\3.1 Бинарное дерево\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\3.1 Бинарное дерево\bin\Debug\nunitlite.dll
+D:\Lessons\C#\3.1 Бинарное дерево\obj\Debug\Generics.BinaryTrees.csproj.AssemblyReference.cache
+D:\Lessons\C#\3.1 Бинарное дерево\obj\Debug\Generics.BinaryTrees.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\3.1 Бинарное дерево\obj\Debug\Generics.BinaryTrees.csproj.CopyComplete
+D:\Lessons\C#\3.1 Бинарное дерево\obj\Debug\Generics.BinaryTree.exe
+D:\Lessons\C#\3.1 Бинарное дерево\obj\Debug\Generics.BinaryTree.pdb

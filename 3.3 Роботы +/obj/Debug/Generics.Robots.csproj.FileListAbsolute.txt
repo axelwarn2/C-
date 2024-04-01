@@ -1,0 +1,10 @@
+D:\Lessons\C#\3.3 Роботы\bin\Debug\Generics.Robots.exe.config
+D:\Lessons\C#\3.3 Роботы\bin\Debug\Generics.Robots.exe
+D:\Lessons\C#\3.3 Роботы\bin\Debug\Generics.Robots.pdb
+D:\Lessons\C#\3.3 Роботы\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\3.3 Роботы\bin\Debug\nunitlite.dll
+D:\Lessons\C#\3.3 Роботы\obj\Debug\Generics.Robots.csproj.AssemblyReference.cache
+D:\Lessons\C#\3.3 Роботы\obj\Debug\Generics.Robots.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\3.3 Роботы\obj\Debug\Generics.Robots.csproj.CopyComplete
+D:\Lessons\C#\3.3 Роботы\obj\Debug\Generics.Robots.exe
+D:\Lessons\C#\3.3 Роботы\obj\Debug\Generics.Robots.pdb

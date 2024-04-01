@@ -1,0 +1,10 @@
+D:\Lessons\C#\2.1 Структура данных\bin\Debug\Inheritance.DataStructure.exe.config
+D:\Lessons\C#\2.1 Структура данных\bin\Debug\Inheritance.DataStructure.exe
+D:\Lessons\C#\2.1 Структура данных\bin\Debug\Inheritance.DataStructure.pdb
+D:\Lessons\C#\2.1 Структура данных\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\2.1 Структура данных\bin\Debug\nunitlite.dll
+D:\Lessons\C#\2.1 Структура данных\obj\Debug\Inheritance.DataStructure.csproj.AssemblyReference.cache
+D:\Lessons\C#\2.1 Структура данных\obj\Debug\Inheritance.DataStructure.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\2.1 Структура данных\obj\Debug\Inheritance.DataStructure.csproj.CopyComplete
+D:\Lessons\C#\2.1 Структура данных\obj\Debug\Inheritance.DataStructure.exe
+D:\Lessons\C#\2.1 Структура данных\obj\Debug\Inheritance.DataStructure.pdb

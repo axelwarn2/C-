@@ -1,0 +1,10 @@
+D:\Lessons\C#\5.2 Дифференцирование\bin\Debug\Reflection.Differentiation.exe.config
+D:\Lessons\C#\5.2 Дифференцирование\bin\Debug\Reflection.Differentiation.exe
+D:\Lessons\C#\5.2 Дифференцирование\bin\Debug\Reflection.Differentiation.pdb
+D:\Lessons\C#\5.2 Дифференцирование\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\5.2 Дифференцирование\bin\Debug\nunitlite.dll
+D:\Lessons\C#\5.2 Дифференцирование\obj\Debug\Reflection.Differentiation.csproj.AssemblyReference.cache
+D:\Lessons\C#\5.2 Дифференцирование\obj\Debug\Reflection.Differentiation.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\5.2 Дифференцирование\obj\Debug\Reflection.Differentiation.csproj.CopyComplete
+D:\Lessons\C#\5.2 Дифференцирование\obj\Debug\Reflection.Differentiation.exe
+D:\Lessons\C#\5.2 Дифференцирование\obj\Debug\Reflection.Differentiation.pdb

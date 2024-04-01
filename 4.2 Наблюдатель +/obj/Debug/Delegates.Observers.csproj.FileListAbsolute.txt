@@ -1,0 +1,10 @@
+D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\Delegates.Observers.exe.config
+D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\Delegates.Observers.exe
+D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\Delegates.Observers.pdb
+D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\nunitlite.dll
+D:\Lessons\C#\4.2 Наблюдатель\obj\Debug\Delegates.Observers.csproj.AssemblyReference.cache
+D:\Lessons\C#\4.2 Наблюдатель\obj\Debug\Delegates.Observers.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\4.2 Наблюдатель\obj\Debug\Delegates.Observers.csproj.CopyComplete
+D:\Lessons\C#\4.2 Наблюдатель\obj\Debug\Delegates.Observers.exe
+D:\Lessons\C#\4.2 Наблюдатель\obj\Debug\Delegates.Observers.pdb

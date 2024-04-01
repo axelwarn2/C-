@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="Inheritance.Geometry.exe" fullname="D:/Lessons/C#/2.3 Геометрия-1/bin/Debug/Inheritance.Geometry.exe" testcasecount="155" result="Failed" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:31Z" duration="5.954492" total="155" passed="49" failed="106" inconclusive="0" skipped="0" asserts="8991" random-seed="470796583">
+  <command-line><![CDATA["D:\Lessons\C#\2.3 Геометрия-1\bin\Debug\Inheritance.Geometry.exe"   ]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1172" name="Inheritance.Geometry.exe" fullname="D:/Lessons/C#/2.3 Геометрия-1/bin/Debug/Inheritance.Geometry.exe" runstate="Runnable" testcasecount="155" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:31Z" duration="5.954492" total="155" passed="49" failed="106" warnings="0" inconclusive="0" skipped="0" asserts="8991">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Lessons\C#\2.3 Геометрия-1\bin\Debug" machine-name="HONOR" user="Босс" user-domain="HONOR" culture="ru-RU" uiculture="ru-RU" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="D:\Lessons\C#\2.3 Геометрия-1\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7808" />
+      <property name="_APPDOMAIN" value="Inheritance.Geometry.exe" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1173" name="Inheritance" fullname="Inheritance" runstate="Runnable" testcasecount="155" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:31Z" duration="5.922583" total="155" passed="49" failed="106" warnings="0" inconclusive="0" skipped="0" asserts="8991">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1174" name="Geometry" fullname="Inheritance.Geometry" runstate="Runnable" testcasecount="155" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:31Z" duration="5.891009" total="155" passed="49" failed="106" warnings="0" inconclusive="0" skipped="0" asserts="8991">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1175" name="Virtual" fullname="Inheritance.Geometry.Virtual" runstate="Runnable" testcasecount="100" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:29Z" duration="3.622959" total="100" passed="49" failed="51" warnings="0" inconclusive="0" skipped="0" asserts="8991">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1000" name="VirtualTask_Should" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="100" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:29Z" duration="3.574936" total="100" passed="49" failed="51" warnings="0" inconclusive="0" skipped="0" asserts="8991">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1028" name="Ball_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.459392" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1015" name="Ball_BoundingBox_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(0,0,0,1)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1132914647" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.057072" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1016" name="Ball_BoundingBox_IsCorrect(6,2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,2,4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="901066358" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001030" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1017" name="Ball_BoundingBox_IsCorrect(-6,2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,2,4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="114024520" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.000968" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1018" name="Ball_BoundingBox_IsCorrect(-6,-2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,-2,4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="261054981" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001182" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1019" name="Ball_BoundingBox_IsCorrect(-6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,-2,-4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1625188519" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001314" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1020" name="Ball_BoundingBox_IsCorrect(6,2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,2,-4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="684506117" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001335" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1021" name="Ball_BoundingBox_IsCorrect(6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,-2,-4,0)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1409894000" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001755" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1022" name="Ball_BoundingBox_IsCorrect(6,2,4,2)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,2,4,2)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="817305645" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001341" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1023" name="Ball_BoundingBox_IsCorrect(-6,2,4,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,2,4,4)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1454970422" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.000958" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1024" name="Ball_BoundingBox_IsCorrect(-6,-2,4,9)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,-2,4,9)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="346569059" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.000954" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1025" name="Ball_BoundingBox_IsCorrect(-6,-2,-4,8)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(-6,-2,-4,8)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="2121770665" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001177" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1026" name="Ball_BoundingBox_IsCorrect(6,2,-4,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,2,-4,7)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1700006239" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001165" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1027" name="Ball_BoundingBox_IsCorrect(6,-2,-4,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(6,-2,-4,1)" methodname="Ball_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1493476047" result="Failed" label="Error" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:25Z" duration="0.001009" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Ball.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 40
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 49]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1014" name="Ball_ContainsPoint_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Passed" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:26Z" duration="0.444003" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="195">
+              <test-case id="1001" name="Ball_ContainsPoint_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(0,0,0,1)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="678770706" result="Passed" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:26Z" duration="0.030160" asserts="15" />
+              <test-case id="1002" name="Ball_ContainsPoint_IsCorrect(6,2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,2,4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="380746334" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000456" asserts="15" />
+              <test-case id="1003" name="Ball_ContainsPoint_IsCorrect(-6,2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,2,4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="316753518" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000378" asserts="15" />
+              <test-case id="1004" name="Ball_ContainsPoint_IsCorrect(-6,-2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,-2,4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="43083471" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000384" asserts="15" />
+              <test-case id="1005" name="Ball_ContainsPoint_IsCorrect(-6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,-2,-4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="889474385" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.015262" asserts="15" />
+              <test-case id="1006" name="Ball_ContainsPoint_IsCorrect(6,2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,2,-4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="346487958" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000401" asserts="15" />
+              <test-case id="1007" name="Ball_ContainsPoint_IsCorrect(6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,-2,-4,0)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1164750604" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000564" asserts="15" />
+              <test-case id="1008" name="Ball_ContainsPoint_IsCorrect(6,2,4,2)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,2,4,2)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1608251257" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000409" asserts="15" />
+              <test-case id="1009" name="Ball_ContainsPoint_IsCorrect(-6,2,4,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,2,4,4)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1653071464" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000428" asserts="15" />
+              <test-case id="1010" name="Ball_ContainsPoint_IsCorrect(-6,-2,4,9)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,-2,4,9)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1949911023" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000404" asserts="15" />
+              <test-case id="1011" name="Ball_ContainsPoint_IsCorrect(-6,-2,-4,8)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(-6,-2,-4,8)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="455227655" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000388" asserts="15" />
+              <test-case id="1012" name="Ball_ContainsPoint_IsCorrect(6,2,-4,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,2,-4,7)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1872575710" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000407" asserts="15" />
+              <test-case id="1013" name="Ball_ContainsPoint_IsCorrect(6,-2,-4,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Ball_ContainsPoint_IsCorrect(6,-2,-4,1)" methodname="Ball_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="678228417" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000414" asserts="15" />
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1109" name="CompoundBody_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.282424" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1100" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,1)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1322577779" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.007552" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1101" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,6)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,6)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="418545392" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.001025" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1102" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,7)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1252344812" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.001278" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1103" name="CompoundBody_BoundingBox_IsCorrect(1,1,1,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(1,1,1,7)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1836887253" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000934" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1104" name="CompoundBody_BoundingBox_IsCorrect(2,3,6,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(2,3,6,5)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1699427029" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000930" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1105" name="CompoundBody_BoundingBox_IsCorrect(-2,-3,6,3)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(-2,-3,6,3)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="819182754" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.001338" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1106" name="CompoundBody_BoundingBox_IsCorrect(-12,-23,-46,13)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(-12,-23,-46,13)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1023089829" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000962" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1107" name="CompoundBody_BoundingBox_IsCorrect(12,-23,6,14)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(12,-23,6,14)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="919171578" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.001453" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1108" name="CompoundBody_BoundingBox_IsCorrect(8,5,-16,12)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(8,5,-16,12)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="2068860646" result="Failed" label="Error" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.002873" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 214]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1094" name="CompoundBody_ContainsPoint_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="9" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:27Z" duration="0.285548" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="432">
+              <test-case id="1085" name="CompoundBody_ContainsPoint_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(0,0,0,1)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="350744372" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.007508" asserts="48" />
+              <test-case id="1086" name="CompoundBody_ContainsPoint_IsCorrect(0,0,0,6)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(0,0,0,6)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="107228817" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000435" asserts="48" />
+              <test-case id="1087" name="CompoundBody_ContainsPoint_IsCorrect(0,0,0,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(0,0,0,7)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="336325757" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000442" asserts="48" />
+              <test-case id="1088" name="CompoundBody_ContainsPoint_IsCorrect(1,1,1,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(1,1,1,7)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="730194239" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000431" asserts="48" />
+              <test-case id="1089" name="CompoundBody_ContainsPoint_IsCorrect(2,3,6,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(2,3,6,5)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="604684866" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000539" asserts="48" />
+              <test-case id="1090" name="CompoundBody_ContainsPoint_IsCorrect(-2,-3,6,3)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(-2,-3,6,3)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="2088942336" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000520" asserts="48" />
+              <test-case id="1091" name="CompoundBody_ContainsPoint_IsCorrect(-12,-23,-46,13)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(-12,-23,-46,13)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1994321272" result="Passed" start-time="2023-12-03 18:31:26Z" end-time="2023-12-03 18:31:26Z" duration="0.000412" asserts="48" />
+              <test-case id="1092" name="CompoundBody_ContainsPoint_IsCorrect(12,-23,6,14)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(12,-23,6,14)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1981663723" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000428" asserts="48" />
+              <test-case id="1093" name="CompoundBody_ContainsPoint_IsCorrect(8,5,-16,12)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_ContainsPoint_IsCorrect(8,5,-16,12)" methodname="CompoundBody_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1559238051" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000465" asserts="48" />
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1099" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.093416" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1096" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,2,3,2,1,3,5,5,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,2,3,2,1,3,5,5,4)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1602208235" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001831" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 190]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1097" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,1,1,2,2,2,5,5,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,1,1,2,2,2,5,5,5)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="583916870" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000873" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 190]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1098" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(2,1,1,1,2,2,5,5,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(2,1,1,1,2,2,5,5,5)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1462869940" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000868" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.CompoundBody.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 124
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 190]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-case id="1095" name="CompoundBody_WithBall_ContainsPoint_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.CompoundBody_WithBall_ContainsPoint_IsCorrect" methodname="CompoundBody_WithBall_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="766184608" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.062081" asserts="8000" />
+            <test-suite type="ParameterizedMethod" id="1084" name="Cylinder_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.407741" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1071" name="Cylinder_BoundingBox_IsCorrect(0,0,0,1,2)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(0,0,0,1,2)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="508813722" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001817" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1072" name="Cylinder_BoundingBox_IsCorrect(6,2,4,5,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,2,4,5,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="45585562" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001128" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1073" name="Cylinder_BoundingBox_IsCorrect(-6,2,4,5,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,2,4,5,5)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="723000231" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000936" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1074" name="Cylinder_BoundingBox_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1418103899" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000952" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1075" name="Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1917878526" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001228" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1076" name="Cylinder_BoundingBox_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="695400010" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000946" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1077" name="Cylinder_BoundingBox_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="911795507" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000963" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1078" name="Cylinder_BoundingBox_IsCorrect(6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1020395342" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001062" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1079" name="Cylinder_BoundingBox_IsCorrect(-6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="321441398" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001049" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1080" name="Cylinder_BoundingBox_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="897892063" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000947" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1081" name="Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="674341997" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000930" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1082" name="Cylinder_BoundingBox_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1665620320" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.001036" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1083" name="Cylinder_BoundingBox_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="948081212" result="Failed" label="Error" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000960" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.Cylinder.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 103
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 138]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1070" name="Cylinder_ContainsPoint_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:28Z" duration="0.406715" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="182">
+              <test-case id="1057" name="Cylinder_ContainsPoint_IsCorrect(0,0,0,2,8)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(0,0,0,2,8)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="485371458" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000951" asserts="14" />
+              <test-case id="1058" name="Cylinder_ContainsPoint_IsCorrect(6,2,4,6,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,2,4,6,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1529780005" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000460" asserts="14" />
+              <test-case id="1059" name="Cylinder_ContainsPoint_IsCorrect(-6,2,4,6,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,2,4,6,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1628391999" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000373" asserts="14" />
+              <test-case id="1060" name="Cylinder_ContainsPoint_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,-2,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="749063692" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000377" asserts="14" />
+              <test-case id="1061" name="Cylinder_ContainsPoint_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,-2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="412607457" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000361" asserts="14" />
+              <test-case id="1062" name="Cylinder_ContainsPoint_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="557013982" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000404" asserts="14" />
+              <test-case id="1063" name="Cylinder_ContainsPoint_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,-2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="2023610137" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000918" asserts="14" />
+              <test-case id="1064" name="Cylinder_ContainsPoint_IsCorrect(6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,2,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1951157268" result="Passed" start-time="2023-12-03 18:31:27Z" end-time="2023-12-03 18:31:27Z" duration="0.000399" asserts="14" />
+              <test-case id="1065" name="Cylinder_ContainsPoint_IsCorrect(-6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,2,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1951557937" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000436" asserts="14" />
+              <test-case id="1066" name="Cylinder_ContainsPoint_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,-2,4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="412918236" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001097" asserts="14" />
+              <test-case id="1067" name="Cylinder_ContainsPoint_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(-6,-2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="732716107" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000370" asserts="14" />
+              <test-case id="1068" name="Cylinder_ContainsPoint_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="990274954" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000536" asserts="14" />
+              <test-case id="1069" name="Cylinder_ContainsPoint_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.Cylinder_ContainsPoint_IsCorrect(6,-2,-4)" methodname="Cylinder_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1624469040" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000366" asserts="14" />
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1056" name="RectangularCuboid_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.412616" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1043" name="RectangularCuboid_BoundingBox_IsCorrect(0,0,0,1,2,3)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(0,0,0,1,2,3)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1465105684" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001768" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1044" name="RectangularCuboid_BoundingBox_IsCorrect(6,2,4,5,4,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,2,4,5,4,7)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1994170626" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001368" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1045" name="RectangularCuboid_BoundingBox_IsCorrect(-6,2,4,5,5,5)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,2,4,5,5,5)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1584723207" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000961" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1046" name="RectangularCuboid_BoundingBox_IsCorrect(-6,-2,4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,-2,4,0)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="635990501" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000930" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1047" name="RectangularCuboid_BoundingBox_IsCorrect(-6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,-2,-4,0)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="437776141" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000933" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1048" name="RectangularCuboid_BoundingBox_IsCorrect(6,2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,2,-4,0)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1387451273" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000999" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1049" name="RectangularCuboid_BoundingBox_IsCorrect(6,-2,-4,0)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,-2,-4,0)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="631362855" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000920" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1050" name="RectangularCuboid_BoundingBox_IsCorrect(6,2,4,2)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,2,4,2)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="201562988" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000965" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1051" name="RectangularCuboid_BoundingBox_IsCorrect(-6,2,4,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,2,4,4)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="322877269" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000890" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1052" name="RectangularCuboid_BoundingBox_IsCorrect(-6,-2,4,9)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,-2,4,9)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="862831714" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001325" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1053" name="RectangularCuboid_BoundingBox_IsCorrect(-6,-2,-4,8)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(-6,-2,-4,8)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="677691107" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001086" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1054" name="RectangularCuboid_BoundingBox_IsCorrect(6,2,-4,7)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,2,-4,7)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1381372809" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000931" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1055" name="RectangularCuboid_BoundingBox_IsCorrect(6,-2,-4,1)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(6,-2,-4,1)" methodname="RectangularCuboid_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="54976042" result="Failed" label="Error" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001313" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+                  <stack-trace><![CDATA[   в Inheritance.Geometry.Virtual.RectangularCuboid.GetBoundingBox() в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask.cs:строка 74
+   в Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_BoundingBox_IsCorrect(Double x, Double y, Double z, Double sizeX, Double sizeY, Double sizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Virtual\VirtualTask_Should.cs:строка 96]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1042" name="RectangularCuboid_ContainsPoint_IsCorrect" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" testcasecount="13" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:29Z" duration="0.408859" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="182">
+              <test-case id="1029" name="RectangularCuboid_ContainsPoint_IsCorrect(0,0,0,8,8,8)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(0,0,0,8,8,8)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1144236666" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000741" asserts="14" />
+              <test-case id="1030" name="RectangularCuboid_ContainsPoint_IsCorrect(6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,2,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1261509742" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000552" asserts="14" />
+              <test-case id="1031" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,2,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1557948632" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000383" asserts="14" />
+              <test-case id="1032" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1601904965" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000379" asserts="14" />
+              <test-case id="1033" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="551971502" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000477" asserts="14" />
+              <test-case id="1034" name="RectangularCuboid_ContainsPoint_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1247549009" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000390" asserts="14" />
+              <test-case id="1035" name="RectangularCuboid_ContainsPoint_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,-2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1950407397" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000376" asserts="14" />
+              <test-case id="1036" name="RectangularCuboid_ContainsPoint_IsCorrect(6,2,4,4,4,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,2,4,4,4,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="920097184" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000556" asserts="14" />
+              <test-case id="1037" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,2,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1951848182" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000416" asserts="14" />
+              <test-case id="1038" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1628034504" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.001047" asserts="14" />
+              <test-case id="1039" name="RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(-6,-2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1097650296" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000388" asserts="14" />
+              <test-case id="1040" name="RectangularCuboid_ContainsPoint_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="1766680166" result="Passed" start-time="2023-12-03 18:31:28Z" end-time="2023-12-03 18:31:28Z" duration="0.000626" asserts="14" />
+              <test-case id="1041" name="RectangularCuboid_ContainsPoint_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Virtual.VirtualTask_Should.RectangularCuboid_ContainsPoint_IsCorrect(6,-2,-4)" methodname="RectangularCuboid_ContainsPoint_IsCorrect" classname="Inheritance.Geometry.Virtual.VirtualTask_Should" runstate="Runnable" seed="326223137" result="Passed" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000383" asserts="14" />
+            </test-suite>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1176" name="Visitor" fullname="Inheritance.Geometry.Visitor" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2023-12-03 18:31:25Z" end-time="2023-12-03 18:31:31Z" duration="5.843200" total="55" passed="0" failed="55" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1110" name="BoundingBoxVisitor_Should" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="51" result="Failed" site="Child" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:31Z" duration="2.029221" total="51" passed="0" failed="51" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1128" name="Ball_BoundingBoxVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.663765" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1115" name="Ball_BoundingBoxVisitor_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(0,0,0,1)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1080936459" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.252946" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1116" name="Ball_BoundingBoxVisitor_IsCorrect(6,2,4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,2,4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1012524795" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000981" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1117" name="Ball_BoundingBoxVisitor_IsCorrect(-6,2,4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,2,4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1256441019" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000831" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1118" name="Ball_BoundingBoxVisitor_IsCorrect(-6,-2,4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,-2,4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1636188025" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.002276" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1119" name="Ball_BoundingBoxVisitor_IsCorrect(-6,-2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,-2,-4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1562117414" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000849" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1120" name="Ball_BoundingBoxVisitor_IsCorrect(6,2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,2,-4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1945185634" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.001189" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1121" name="Ball_BoundingBoxVisitor_IsCorrect(6,-2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,-2,-4,0)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1095122250" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000858" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1122" name="Ball_BoundingBoxVisitor_IsCorrect(6,2,4,2)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,2,4,2)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1337687283" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.001020" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1123" name="Ball_BoundingBoxVisitor_IsCorrect(-6,2,4,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,2,4,4)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="86745545" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000830" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1124" name="Ball_BoundingBoxVisitor_IsCorrect(-6,-2,4,9)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,-2,4,9)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="45943057" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.001104" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1125" name="Ball_BoundingBoxVisitor_IsCorrect(-6,-2,-4,8)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(-6,-2,-4,8)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="374413627" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000855" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1126" name="Ball_BoundingBoxVisitor_IsCorrect(6,2,-4,7)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,2,-4,7)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="64031190" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000845" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1127" name="Ball_BoundingBoxVisitor_IsCorrect(6,-2,-4,1)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(6,-2,-4,1)" methodname="Ball_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1185724" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000907" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Ball_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 42]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1166" name="CompoundBody_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:30Z" duration="0.282126" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1157" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,1)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,1)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="577711166" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.008954" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1158" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,6)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,6)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1203056095" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000873" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1159" name="CompoundBody_BoundingBox_IsCorrect(0,0,0,7)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(0,0,0,7)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="737125301" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000869" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1160" name="CompoundBody_BoundingBox_IsCorrect(1,1,1,7)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(1,1,1,7)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="167263463" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000821" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1161" name="CompoundBody_BoundingBox_IsCorrect(2,3,6,5)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(2,3,6,5)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="434016004" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.000833" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1162" name="CompoundBody_BoundingBox_IsCorrect(-2,-3,6,3)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(-2,-3,6,3)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="2033846513" result="Failed" label="Error" start-time="2023-12-03 18:31:29Z" end-time="2023-12-03 18:31:29Z" duration="0.004227" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1163" name="CompoundBody_BoundingBox_IsCorrect(-12,-23,-46,13)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(-12,-23,-46,13)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="83125454" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.003930" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1164" name="CompoundBody_BoundingBox_IsCorrect(12,-23,6,14)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(12,-23,6,14)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1606384555" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000871" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1165" name="CompoundBody_BoundingBox_IsCorrect(8,5,-16,12)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(8,5,-16,12)" methodname="CompoundBody_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="882925978" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000820" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 115]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1114" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.094955" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1111" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,2,3,2,1,3,5,5,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,2,3,2,1,3,5,5,4)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="142611835" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.002173" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 20]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1112" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,1,1,2,2,2,5,5,5)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(1,1,1,2,2,2,5,5,5)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1634317241" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000758" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 20]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1113" name="CompoundBody_Of_TwoCuboids_BoundingBox_Correct(2,1,1,1,2,2,5,5,5)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(2,1,1,1,2,2,5,5,5)" methodname="CompoundBody_Of_TwoCuboids_BoundingBox_Correct" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="306582683" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000811" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.CompoundBody_Of_TwoCuboids_BoundingBox_Correct(Double x0, Double y0, Double z0, Double x1, Double y1, Double z1, Double expectedSizeX, Double expectedSizeY, Double expectedSizeZ) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 20]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1156" name="Cylinder_BoundingBox_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.414376" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1143" name="Cylinder_BoundingBox_IsCorrect(0,0,0,1,2)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(0,0,0,1,2)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="381861509" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.002996" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1144" name="Cylinder_BoundingBox_IsCorrect(6,2,4,5,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,2,4,5,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="773325116" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001229" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1145" name="Cylinder_BoundingBox_IsCorrect(-6,2,4,5,5)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,2,4,5,5)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="828738115" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001118" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1146" name="Cylinder_BoundingBox_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1833460455" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000858" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1147" name="Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="2019197471" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000850" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1148" name="Cylinder_BoundingBox_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1719871931" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000894" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1149" name="Cylinder_BoundingBox_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="141250385" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000819" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1150" name="Cylinder_BoundingBox_IsCorrect(6,2,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1620614713" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000899" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1151" name="Cylinder_BoundingBox_IsCorrect(-6,2,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1905362762" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001052" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1152" name="Cylinder_BoundingBox_IsCorrect(-6,-2,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="507324391" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001780" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1153" name="Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(-6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1460348072" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000936" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1154" name="Cylinder_BoundingBox_IsCorrect(6,2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="621506645" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000990" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1155" name="Cylinder_BoundingBox_IsCorrect(6,-2,-4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(6,-2,-4)" methodname="Cylinder_BoundingBox_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1787051075" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000843" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.Cylinder_BoundingBox_IsCorrect(Double x, Double y, Double z, Double radius, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 86]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1142" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:31Z" duration="0.415078" total="13" passed="0" failed="13" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1129" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(0,0,0,1,2,3)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(0,0,0,1,2,3)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1397847091" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.003610" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1130" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,4,5,4,7)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,4,5,4,7)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="977782653" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001472" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1131" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,2,4,5,5,5)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,2,4,5,5,5)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1297120074" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000836" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1132" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,4,0)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="994617669" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000925" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1133" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,-4,0)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1226840810" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.001003" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1134" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,-4,0)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1902638087" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000843" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1135" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,-2,-4,0)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,-2,-4,0)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="2089131366" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000907" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1136" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,4,2)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,4,2)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="662036311" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000839" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1137" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,2,4,4)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,2,4,4)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="73452665" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:30Z" duration="0.000979" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1138" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,4,9)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,4,9)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="2114880981" result="Failed" label="Error" start-time="2023-12-03 18:31:30Z" end-time="2023-12-03 18:31:31Z" duration="0.000912" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1139" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,-4,8)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(-6,-2,-4,8)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1076738549" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.000848" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1140" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,-4,7)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,2,-4,7)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1266699956" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.001742" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1141" name="RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,-2,-4,1)" fullname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(6,-2,-4,1)" methodname="RectangularCuboid_BoundingBoxVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should" runstate="Runnable" seed="1245108834" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.000849" asserts="0">
+                <failure>
+                  <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                  <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoundingBoxVisitor_Should.RectangularCuboid_BoundingBoxVisitor_IsCorrect(Double x, Double y, Double z, Double length, Double width, Double height) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoundingBoxVisitor_Should.cs:строка 66]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1167" name="BoxifyVisitor_Should" fullname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" classname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.128392" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1168" name="Ball_BoxifyVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should.Ball_BoxifyVisitor_IsCorrect" methodname="Ball_BoxifyVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" runstate="Runnable" seed="2111023789" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.002647" asserts="0">
+              <failure>
+                <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Ball" не содержит определения для "Accept"]]></message>
+                <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoxifyVisitor_Should.Ball_BoxifyVisitor_IsCorrect() в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoxifyVisitor_Should.cs:строка 15]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1171" name="CompoundBody_BoxifyVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should.CompoundBody_BoxifyVisitor_IsCorrect" methodname="CompoundBody_BoxifyVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" runstate="Runnable" seed="100548718" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.003506" asserts="0">
+              <failure>
+                <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.CompoundBody" не содержит определения для "Accept"]]></message>
+                <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoxifyVisitor_Should.CompoundBody_BoxifyVisitor_IsCorrect() в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoxifyVisitor_Should.cs:строка 55]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1170" name="Cylinder_BoxifyVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should.Cylinder_BoxifyVisitor_IsCorrect" methodname="Cylinder_BoxifyVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" runstate="Runnable" seed="1075040560" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.002539" asserts="0">
+              <failure>
+                <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.Cylinder" не содержит определения для "Accept"]]></message>
+                <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoxifyVisitor_Should.Cylinder_BoxifyVisitor_IsCorrect() в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoxifyVisitor_Should.cs:строка 37]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1169" name="RectangularCuboid_BoxifyVisitor_IsCorrect" fullname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should.RectangularCuboid_BoxifyVisitor_IsCorrect" methodname="RectangularCuboid_BoxifyVisitor_IsCorrect" classname="Inheritance.Geometry.Visitor.BoxifyVisitor_Should" runstate="Runnable" seed="701155584" result="Failed" label="Error" start-time="2023-12-03 18:31:31Z" end-time="2023-12-03 18:31:31Z" duration="0.002319" asserts="0">
+              <failure>
+                <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : "Inheritance.Geometry.Visitor.RectangularCuboid" не содержит определения для "Accept"]]></message>
+                <stack-trace><![CDATA[   в CallSite.Target(Closure , CallSite , Object , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в CallSite.Target(Closure , CallSite , Object , Object )
+   в Inheritance.Geometry.Visitor.BodyExtensions.TryAcceptVisitor[TResult](Body body, Object visitor) в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BodyExtensions.cs:строка 9
+   в Inheritance.Geometry.Visitor.BoxifyVisitor_Should.RectangularCuboid_BoxifyVisitor_IsCorrect() в D:\Lessons\C#\2.3 Геометрия-1\Visitor\BoxifyVisitor_Should.cs:строка 26]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,10 @@
+D:\Lessons\C#\5.1 Случайные объекты\bin\Debug\Reflection.Randomness.exe.config
+D:\Lessons\C#\5.1 Случайные объекты\bin\Debug\Reflection.Randomness.exe
+D:\Lessons\C#\5.1 Случайные объекты\bin\Debug\Reflection.Randomness.pdb
+D:\Lessons\C#\5.1 Случайные объекты\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\5.1 Случайные объекты\bin\Debug\nunitlite.dll
+D:\Lessons\C#\5.1 Случайные объекты\obj\Debug\Reflection.Randomness.csproj.AssemblyReference.cache
+D:\Lessons\C#\5.1 Случайные объекты\obj\Debug\Reflection.Randomness.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\5.1 Случайные объекты\obj\Debug\Reflection.Randomness.csproj.CopyComplete
+D:\Lessons\C#\5.1 Случайные объекты\obj\Debug\Reflection.Randomness.exe
+D:\Lessons\C#\5.1 Случайные объекты\obj\Debug\Reflection.Randomness.pdb

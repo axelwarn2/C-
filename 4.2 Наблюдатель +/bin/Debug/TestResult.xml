@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="Delegates.Observers.exe" fullname="D:/Lessons/C#/4.2 Наблюдатель/bin/Debug/Delegates.Observers.exe" testcasecount="2" result="Failed" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.202590" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="2" random-seed="2140567866">
+  <command-line><![CDATA["D:\Lessons\C#\4.2 Наблюдатель\bin\Debug\Delegates.Observers.exe"   ]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1003" name="Delegates.Observers.exe" fullname="D:/Lessons/C#/4.2 Наблюдатель/bin/Debug/Delegates.Observers.exe" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.202590" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Lessons\C#\4.2 Наблюдатель\bin\Debug" machine-name="HONOR" user="Босс" user-domain="HONOR" culture="ru-RU" uiculture="ru-RU" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="D:\Lessons\C#\4.2 Наблюдатель\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3820" />
+      <property name="_APPDOMAIN" value="Delegates.Observers.exe" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1004" name="Delegates" fullname="Delegates" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.171045" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1005" name="Observers" fullname="Delegates.Observers" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.143012" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1000" name="ObservableStack_Tests" fullname="Delegates.Observers.ObservableStack_Tests" classname="Delegates.Observers.ObservableStack_Tests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.111157" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1001" name="Log_ShouldBeEmpty_AfterCreation" fullname="Delegates.Observers.ObservableStack_Tests.Log_ShouldBeEmpty_AfterCreation" methodname="Log_ShouldBeEmpty_AfterCreation" classname="Delegates.Observers.ObservableStack_Tests" runstate="Runnable" seed="251608196" result="Passed" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.024536" asserts="1" />
+          <test-case id="1002" name="Log_ShouldContainAllOperations" fullname="Delegates.Observers.ObservableStack_Tests.Log_ShouldContainAllOperations" methodname="Log_ShouldContainAllOperations" classname="Delegates.Observers.ObservableStack_Tests" runstate="Runnable" seed="1403501741" result="Failed" start-time="2023-12-05 12:59:04Z" end-time="2023-12-05 12:59:04Z" duration="0.042591" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected string length 9 but was 0. Strings differ at index 0.
+  Expected: "+1+2-2+10"
+  But was:  <string.Empty>
+  -----------^
+]]></message>
+              <stack-trace><![CDATA[в Delegates.Observers.ObservableStack_Tests.Log_ShouldContainAllOperations() в D:\Lessons\C#\4.2 Наблюдатель\ObservableStack_should.cs:строка 32
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected string length 9 but was 0. Strings differ at index 0.
+  Expected: "+1+2-2+10"
+  But was:  <string.Empty>
+  -----------^
+]]></message>
+                <stack-trace><![CDATA[в Delegates.Observers.ObservableStack_Tests.Log_ShouldContainAllOperations() в D:\Lessons\C#\4.2 Наблюдатель\ObservableStack_should.cs:строка 32
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

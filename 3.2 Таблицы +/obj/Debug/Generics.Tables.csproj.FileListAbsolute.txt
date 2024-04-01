@@ -1,0 +1,10 @@
+D:\Lessons\C#\3.2 Таблицы\bin\Debug\Generics.Table.exe.config
+D:\Lessons\C#\3.2 Таблицы\bin\Debug\Generics.Table.exe
+D:\Lessons\C#\3.2 Таблицы\bin\Debug\Generics.Table.pdb
+D:\Lessons\C#\3.2 Таблицы\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\3.2 Таблицы\bin\Debug\nunitlite.dll
+D:\Lessons\C#\3.2 Таблицы\obj\Debug\Generics.Tables.csproj.AssemblyReference.cache
+D:\Lessons\C#\3.2 Таблицы\obj\Debug\Generics.Tables.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\3.2 Таблицы\obj\Debug\Generics.Tables.csproj.CopyComplete
+D:\Lessons\C#\3.2 Таблицы\obj\Debug\Generics.Table.exe
+D:\Lessons\C#\3.2 Таблицы\obj\Debug\Generics.Table.pdb

@@ -1,0 +1,10 @@
+D:\Lessons\C#\4.4 Анализ пар\bin\Debug\Delegates.PairsAnalysis.exe.config
+D:\Lessons\C#\4.4 Анализ пар\bin\Debug\Delegates.PairsAnalysis.exe
+D:\Lessons\C#\4.4 Анализ пар\bin\Debug\Delegates.PairsAnalysis.pdb
+D:\Lessons\C#\4.4 Анализ пар\bin\Debug\nunit.framework.dll
+D:\Lessons\C#\4.4 Анализ пар\bin\Debug\nunitlite.dll
+D:\Lessons\C#\4.4 Анализ пар\obj\Debug\Delegates.PairsAnalysis.csproj.AssemblyReference.cache
+D:\Lessons\C#\4.4 Анализ пар\obj\Debug\Delegates.PairsAnalysis.csproj.CoreCompileInputs.cache
+D:\Lessons\C#\4.4 Анализ пар\obj\Debug\Delegates.PairsAnalysis.csproj.CopyComplete
+D:\Lessons\C#\4.4 Анализ пар\obj\Debug\Delegates.PairsAnalysis.exe
+D:\Lessons\C#\4.4 Анализ пар\obj\Debug\Delegates.PairsAnalysis.pdb

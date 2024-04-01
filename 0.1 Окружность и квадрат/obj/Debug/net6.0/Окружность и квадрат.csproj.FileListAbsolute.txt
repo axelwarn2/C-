@@ -1,0 +1,14 @@
+C:\Stud\C#\Окружность и квадрат\bin\Debug\net6.0\Окружность и квадрат.exe
+C:\Stud\C#\Окружность и квадрат\bin\Debug\net6.0\Окружность и квадрат.deps.json
+C:\Stud\C#\Окружность и квадрат\bin\Debug\net6.0\Окружность и квадрат.runtimeconfig.json
+C:\Stud\C#\Окружность и квадрат\bin\Debug\net6.0\Окружность и квадрат.dll
+C:\Stud\C#\Окружность и квадрат\bin\Debug\net6.0\Окружность и квадрат.pdb
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.GeneratedMSBuildEditorConfig.editorconfig
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.AssemblyInfoInputs.cache
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.AssemblyInfo.cs
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.csproj.CoreCompileInputs.cache
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.dll
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\refint\Окружность и квадрат.dll
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.pdb
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\Окружность и квадрат.genruntimeconfig.cache
+C:\Stud\C#\Окружность и квадрат\obj\Debug\net6.0\ref\Окружность и квадрат.dll
